@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WFC Sudoku Solver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div>
+      <h1>Sudoku Solver using Wave Function Collapse</h1>
+      <div style="display: flex; justify-content:center; gap:20px">
+        <div style="display: flex; align-items:center; gap:10px">
+          <div style="width: 25px; height: 25px; background:lightgreen;"></div>
+          <p>Cell Optimal To Collapse</p>
+        </div>
+        <div style="display: flex; align-items:center; gap:10px">
+          <div style="width: 25px; height: 25px; background:darkgray;"></div>
+          <p>Collapsed Cell</p>
+        </div>
+      </div>
+    </div>
+
+    <table id="sudoku">
+    </table>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
